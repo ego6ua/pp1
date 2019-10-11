@@ -1,2 +1,3 @@
-Ivan Kudybyn
-17 years
+#MyPersonalData
+
+print("Ivan Kudybyn, 17 years")
