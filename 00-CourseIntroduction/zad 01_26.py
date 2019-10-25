@@ -9,3 +9,5 @@ elif bmi <= 29.9:
     print(f"Wskaznik BMI {bmi} (nadwaga)")
 elif bmi > 30:
     print(f"Wskaznik BMI {bmi} (otyłość)")
+else:
+    print(f"Wskaznik BMI {bmi} (otyłość)")
