@@ -1,4 +1,5 @@
 Pink Floyd – We Don't Need No Education
+<<<<<<< HEAD
 
 =======================================
 
@@ -10,4 +11,11 @@ No dark sarcasm in the classroom
 
 Teacher, leave them kids alone 
 
+=======
+=======================================
+We don't need no education 
+We don't need no thought control 
+No dark sarcasm in the classroom 
+Teacher, leave them kids alone 
+>>>>>>> upstream/master
 Hey! Teacher, leave them kids alone
