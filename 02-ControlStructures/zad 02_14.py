@@ -1,5 +1,5 @@
 wiek = int(input("Podaj wiek psa w ludzkich latach: "))
-type(wiek)
+
 if wiek > 2:
     wiek_psi_lata=int((2*10.5)+((wiek-2)*4))
 else:
