@@ -4,4 +4,4 @@ c = int(input("wpisz bok c:"))
 p = (a+b+c)/2
 import math
 f = math.sqrt(p*(p-a)*(p-b)*(p-c))
-print(f"Pole trójkata wynosi {f}")
+print(f"Pole trójkata wynosi {f }")

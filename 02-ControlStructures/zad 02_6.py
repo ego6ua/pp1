@@ -1,4 +1,4 @@
 imie = "Ivan"
 for i in range(5):
-    print(imie)
+    print(i,imie)
     
