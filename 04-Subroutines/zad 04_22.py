@@ -1,4 +1,3 @@
-def f():
-    x = input('Podaj liczbę 1:')
-    y = input('Podaj liczbę2:')
-    
+m = int(input('Podaj liczbę : '))
+f = lambda x : x%2 == 0
+print(f(m))

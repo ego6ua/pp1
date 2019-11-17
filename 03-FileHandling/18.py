@@ -4,5 +4,5 @@ f = open('C:/Users/asus/Desktop/pp1/03-FileHandling/numbers.txt','r')
 lst.append(list(f))
 #print(lst)
 for i in lst:
-    pass
+    print(i)
 f.close()
