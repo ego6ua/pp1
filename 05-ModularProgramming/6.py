@@ -12,8 +12,8 @@ with open('employees.csv', newline='') as f:
     print(' ')
     print('='*70)
     for row in reader:
-        print(f'%-3d %-15s %-15s %-15s %s'%(x, row[0], row[1], row[2], row[3]))
+        print(f'%-3d %-15s %-15s %-10s %s'%(x, row[0], row[1], row[2], row[3]))
         x+=1
         wiek.append(int(row[2]))
     print(statistics.mean(wiek))
-    #print(sum(int(row[2]))/lenint(int(row[2])))
+    

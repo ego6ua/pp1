@@ -1,3 +1,3 @@
 def printName():
-    print('Ivan Kudybyn')
-printName()
+    return 'Ivan Kudybyn'
+print(printName())

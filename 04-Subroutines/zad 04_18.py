@@ -5,4 +5,4 @@ def silnia(n):
     #n! = n * (n-1)!
     if n > 1:
         return n * silnia(n-1)
-print( f'5! = {silnia(5)}' )
+print( f'6! = {silnia(6)}' )
