@@ -5,5 +5,5 @@ for i in p:
         print('', end = '  ')
     else:
         print(i, end = '')
-      
+    print(i)
         

@@ -2,4 +2,6 @@ chleb
 pepsi
 kielbasa
 Coca-Cola
+PringlesCoca-Cola
+PringlesCoca-Cola
 Pringles

@@ -1,6 +1,5 @@
 uczelnia = "UEK w Krakowie"
 print(f'Uczelnia: {uczelnia}')
-#print(f'Szeroko: {tuple(uczelnia)}')
-print('Szeroko: ')
+print('Szeroko: ', end='')
 for i in uczelnia:
    print(i, end=' ')

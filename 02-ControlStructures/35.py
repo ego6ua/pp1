@@ -1,11 +1,15 @@
 a = input('Podaj liczbe a: ')
 b = input('Podaj liczbe b: ')
 c = input('Podaj liczbe c: ')
-d = int(int(b)**2 - 4*int(a)*int(c))
 import math
-#D = math.sqrt(d)
-#z = a + 'x2' + '+' + b + 'x' + '+' + c + '=' + '0'
-print(a + 'x2' + '+' + b + 'x' + '+' + c + '=' + '0')
-#print(f'D = {D}')
-#print(f'x1 = {}')
-#print(f'x2 = {}')
+a = int(a)
+b = int(b)
+c = int(c)
+d = b**2 - 4*a*c
+D = math.sqrt(d)
+x1 = (-b+D)/2*a
+x2 = (-b-D)/2*a
+print(a, 'x^2', '+', b, 'x', '+', c, '=', '0', end='')
+print(f'D = {D}')
+print(f'X1 = {x1}')
+print(f'X2 = {x2}')

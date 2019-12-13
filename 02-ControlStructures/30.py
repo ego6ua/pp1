@@ -1,16 +1,14 @@
-ppin = '0805'
-pin = str(input('Podaj kod PIN: '))
-i = 0
-
-while i<3:
-    if pin == ppin:
+#pin = str(input('Podaj kod PIN: '))
+praw_pin = '0805'
+i=0
+while i <= 3:
+    pin = str(input('Podaj kod PIN: '))
+    if pin == praw_pin:
         print('Kod PIN poprawny.')
         break
-    else:         
+    else:
         print('Kod PIN niepoprawny.')
-        
-        
-    i+=1   
-    
-else:
-    print('Karta płatnicza zostaje zablokowana.')
+        i+=1
+        if i == 3:
+            print('Karta zostanie zablokowana')
+            break
