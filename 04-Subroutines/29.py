@@ -4,5 +4,5 @@ m = statistics.median(tab)
 
 def func():
     return m 
-print(f'Tablica: {tab}', f'\nMediana: {m}', f'\nDominanta: {d}')
+print(f'Tablica: {tab}', f'\nMediana: {m}')#, #f'\nDominanta: {d}')
     

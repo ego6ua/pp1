@@ -5,5 +5,5 @@ def jestImie(imie):
     if imie in imiona:
         print('Rezultat: imię zawarte jest w wykazie imion')
     else:
-        print('Rezultat: imię zawarte nie jest w wykazie imio')
+        print('Rezultat: imię zawarte nie jest w wykazie imion')
 jestImie(im)
