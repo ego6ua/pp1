@@ -1,5 +1,3 @@
-'''f = open('C:/Users/s-115-23/Desktop/pp1/05-ModularProgramming/employees.csv', 'r')
-print(f.read())'''
 import csv
 import statistics
 with open('employees.csv', newline='') as f:
