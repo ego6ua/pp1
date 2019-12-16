@@ -1,3 +1,4 @@
+from random import randrange
 class matrix():
 
     @staticmethod
@@ -14,9 +15,35 @@ class matrix():
         return matrix
 
     @staticmethod
+    def create2(x, y):
+        matrix = [[0 for i in range(x)] for j in range(y)]
+        return matrix
+    
+    @staticmethod
+    def create_unit(x):
+        matrix = [[0 for i in range(x)] for j in range(x)]
+        for i in range(x):
+            matrix[i][i] = 1
+        return matrix
+    
+
+    @staticmethod
+    def fill_random(x, y):
+        matrix = [[0 for i in range(x)] for row in range(y)]
+        for i in range(x, y):
+            n = randrange(x, y)
+            matrix[i][i] = n
+        return matrix
+        
+        
+    
+    @staticmethod
     def print(matrix):
         for row in matrix:
             print(row)
+    
 
-m = matrix.create(4,3)
+m = matrix.create2(3,3)
+#m = matrix.create_unit(5)
+m = matrix.fill_random(5, 9)
 matrix.print(m)
